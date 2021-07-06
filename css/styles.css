@@ -1,29 +1,37 @@
-
+nav {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 header {
+    overflow: hidden;
     margin-top: auto;
     padding: 0;
-    color: black; 
+    /* color:black;  */
     text-align: center;
 }
 
 header h1 {
     font-family: "Papyrus";
     font-size: 86px;
+    /* color: white;
+  mix-blend-mode: difference;
+  filter: drop-shadow(.05em .05em red); */
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-header h2 {
+header h2, h3, h4 {
     font-family: "Calibri";
     font-size: 25px;
     font-style: "bold";
+    /* color: white;
+  mix-blend-mode: difference;
+  filter: drop-shadow(.05em .05em red); */
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .site-footer {
-    background-color: #425E46;
+    background-color: transparent;
     padding: 40px 0;
     text-align: center;
-    /* margin:0px;
-    padding:0px;
-    min-width:100%;
-    max-width:100%; */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #image2, #image3, #image4 {
@@ -38,15 +46,17 @@ header h2 {
     padding: 80px;
 }
 
-/* .container {
-    position:relative;
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.modal-backdrop {
+    z-index: -1;
   }
-  
-  .covered-img {
-    background:url('../img/image1.jpg');
-    opacity: 0.5;
-    background-size:cover; 
-    background-position:center; 
-    position:absolute;
-    top:0;bottom:0;left:0;right:0;
-  } */
+
+#appointmentModal .modal-header, #memberLoginmodal .modal-header, #teamjoinModal .modal-header {
+    background-color: rgb(62, 123, 138);
+    color: white; }
