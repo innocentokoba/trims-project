@@ -1,6 +1,7 @@
 nav {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 header {
     overflow: hidden;
     margin-top: auto;
@@ -15,8 +16,9 @@ header h1 {
     /* color: white;
   mix-blend-mode: difference;
   filter: drop-shadow(.05em .05em red); */
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 header h2, h3, h4 {
     font-family: "Calibri";
     font-size: 25px;
@@ -24,11 +26,11 @@ header h2, h3, h4 {
     /* color: white;
   mix-blend-mode: difference;
   filter: drop-shadow(.05em .05em red); */
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .site-footer {
-    background-color: transparent;
+    background-color: initial;
     padding: 40px 0;
     text-align: center;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -46,17 +48,55 @@ header h2, h3, h4 {
     padding: 80px;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     margin-top: 0;
 }
 
 .modal-backdrop {
     z-index: -1;
-  }
+}
 
 #appointmentModal .modal-header, #memberLoginmodal .modal-header, #teamjoinModal .modal-header {
     background-color: rgb(62, 123, 138);
-    color: white; }
+    color: white;
+}
+
+#aboutparagraph {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.breadcrumb {
+    background-color: lightgray;
+}
+
+.card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+    background-color: white;
+    opacity: 0.8;
+}
+
+#massageCards {
+    background-color: white;
+    opacity: 0.6;
+}
+
+#imageRowservice img {
+    float: left;
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+    padding: 2px;
+}
+
+#imageRowservice {
+    padding: 50px;
+}
