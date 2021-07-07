@@ -36,7 +36,11 @@ header h2, h3, h4 {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-#image2, #image3, #image4 {
+/* #image2, #image {
+    box-shadow: 10px 5px 5px black;
+} */
+
+[id*="image"] img {
     box-shadow: 10px 5px 5px black;
 }
 
@@ -71,6 +75,8 @@ header h2, h3, h4 {
 
 .breadcrumb {
     background-color: lightgray;
+    top: 50px;
+    width: 100%;
 }
 
 .card {
@@ -89,14 +95,8 @@ header h2, h3, h4 {
     opacity: 0.6;
 }
 
-#imageRowservice img {
-    float: left;
-    width: 100px;
-    height: 300px;
-    object-fit: cover;
-    padding: 2px;
-}
+/* #imageRowservice */
 
-#imageRowservice {
+[id*="imageRowservice"] {
     padding: 50px;
 }

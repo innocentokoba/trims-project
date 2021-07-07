@@ -35,9 +35,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="services.html" data-bs-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Hair</a></li>
-                                <li><a class="dropdown-item" href="#">Body</a></li>
-                                <li><a class="dropdown-item" href="#">Color</a></li>
+                                <li><a class="dropdown-item" href="servicepricing.html">Hair</a></li>
+                                <li><a class="dropdown-item" href="servicepricing.html">Body</a></li>
+                                <li><a class="dropdown-item" href="servicepricing.html">Color</a></li>
                             </ul>
                         </li>
                         <!-- <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
@@ -50,13 +50,13 @@
                                 <li><a class="dropdown-item">trimssupport@trimsstudio.com</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="learn.html" data-bs-toggle="dropdown">Learn</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Trending</a></li>
                                 <li><a class="dropdown-item" href="#">Frequently asked questions</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                     <span class="navbar-text ml-auto">
                         <!--<a role="button" data-toggle="modal" data-target="#loginModal">-->
@@ -68,7 +68,7 @@
             </div> <!-- container-fluid.// -->
         </nav>
     <!-- image background and front page -->
-    <div class="view" id="image1bgrd" style="background-image: url('img/image1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="view" id="image1bgrd" style="background-image: url('img/image1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
         <div class="mask rgba-black-light align-items-center">
             <!-- navbar-->
             
@@ -86,15 +86,15 @@
                     <div class="row row-content" id="imageRow">
                         <div class="col-sm-4 mx-auto">
                             <h2 class="text-sm-center mx-auto">Hair</h2>
-                            <img class="d-block w-100 img-fluid img-thumbnail" src="img/image3.jpg" id="image3" alt="image3"  />
+                            <img class="d-block w-100 img-fluid img-thumbnail" src="img/image3.jpg" id="image3" alt="image"  />
                         </div>
                         <div class="col-sm-4 mx-auto">
                             <h3 class="text-sm-center align-items-center">Body</h3>
-                            <img class="d-block w-100 img-fluid img-thumbnail" src="img/image2.jpg" id="image2" alt="image2" />
+                            <img class="d-block w-100 img-fluid img-thumbnail" src="img/image2.jpg" id="image2" alt="image" />
                         </div>
                         <div class="col-sm-4 mx-auto">
                             <h4 class="text-sm-center">Color</h4>
-                            <img class="d-block w-100 img-fluid align-self-center img-thumbnail" src="img/image4.jpg" id="image4" alt="image4" />
+                            <img class="d-block w-100 img-fluid align-self-center img-thumbnail" src="img/image4.jpg" id="image4" alt="image" />
                         </div>
                         
                     </div>
@@ -187,55 +187,52 @@
                         </div>
                     </div>
 
-<!-- join team modal-->
-<div id="teamjoinModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <!-- <div class="modal-header bg-info text-white"> -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Join Our Team</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <form>
-                        <div class="row form-group">
-                            <label class="col-sm-2 col-form-label">Name</label>
-                            <div class="col">
-                              <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col">
-                              <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <label class="col-sm-2 col-form-label text-nowrap">Contact</label>
-                            <div class="col">
-                              <input type="text" class="form-control" placeholder="Phone Number">
-                            </div>
-                            <div class="col">
-                              <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <label for="tellus">In a few words, tell us about yourself and your interest in TRIMS</label>
-                            <textarea class="form-control" id="tellus" rows="3"></textarea>
-                          </div>
-                        <div class="row form-group">
-                            <div class="col col-form-label ">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-                  
-
-
+                                    <!-- join team modal-->
+                                    <div id="teamjoinModal" class="modal fade" role="dialog">
+                                        <div class="modal-dialog modal-lg" role="document">
+                                            <div class="modal-content">
+                                                <!-- <div class="modal-header bg-info text-white"> -->
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Join Our Team</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <form>
+                                                            <div class="row form-group">
+                                                                <label class="col-sm-2 col-form-label">Name</label>
+                                                                <div class="col">
+                                                                <input type="text" class="form-control" placeholder="First name">
+                                                                </div>
+                                                                <div class="col">
+                                                                <input type="text" class="form-control" placeholder="Last name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row form-group">
+                                                                <label class="col-sm-2 col-form-label text-nowrap">Contact</label>
+                                                                <div class="col">
+                                                                <input type="text" class="form-control" placeholder="Phone Number">
+                                                                </div>
+                                                                <div class="col">
+                                                                <input type="text" class="form-control" placeholder="Email">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row form-group">
+                                                                <label for="tellus">In a few words, tell us about yourself and your interest in TRIMS</label>
+                                                                <textarea class="form-control" id="tellus" rows="3"></textarea>
+                                                            </div>
+                                                            <div class="row form-group">
+                                                                <div class="col col-form-label ">
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -310,14 +307,16 @@
             </div>
             <div class="col-6 col-sm-4 ">
                 <h5 class="text-dark">Find a Studio Near You</h5>
-                <button type="button" class="btn btn-light btn-outline-dark btn-sm"
-                    onclick="location.href='maplocator.html'">VIEW LARGER MAP</button>
+                <button type="button" class="btn btn-light btn-outline-dark btn-sm" onclick="location.href=''">VIEW LARGER MAP</button>
             </div>
-            <div class="col col-sm-2">
+           <div class="col col-sm-2">
                 <h5 class="text-dark">Membership</h5>
                 <button type="button" class="btn btn-light btn-outline-dark btn-sm"
-                    onclick="location.href='learnmore.html'">LEARN MORE</button>
+                    onclick="location.href=''">LEARN MORE</button>
             </div>
+                
+        
+
             <div class="col col-sm-2 text-center offset-1">
                 <h5 class="text-dark">Follow Us</h5>
                 <a class="btn btn-social-icon btn-instagram" style="background-color:transparent; color:#ac2bac;"

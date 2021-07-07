@@ -18,10 +18,9 @@
 
 <body>
     <header>
-        
         <!-- image background and front page -->
         <div class="view" id="image1bgrd"
-            style="background-image: url('img/image7.jfif'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            style="background-image: url('img/image7.jfif'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
             <div class="mask rgba-black-light align-items-center">
                 <!-- navbar-->
                 <nav class="navbar navbar-expand-sm navbar-light font-weight-bold sticky-top">
@@ -42,9 +41,9 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link  dropdown-toggle" href="services.html" data-bs-toggle="dropdown">Services</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Hair</a></li>
-                                        <li><a class="dropdown-item" href="#">Body</a></li>
-                                        <li><a class="dropdown-item" href="#">Color</a></li>
+                                        <li><a class="dropdown-item" href="servicepricing.html">Hair</a></li>
+                                        <li><a class="dropdown-item" href="servicepricing.html">Body</a></li>
+                                        <li><a class="dropdown-item" href="servicepricing.html">Color</a></li>
                                     </ul>
                                 </li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
@@ -57,13 +56,13 @@
                                         <li><a class="dropdown-item">trimssupport@trimsstudio.com</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="learn.html" data-bs-toggle="dropdown">Learn</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Trending</a></li>
-                                        <li><a class="dropdown-item" href="#">Frequently asked questions</a></li>
-                                    </ul>
-                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                                            <a class="nav-link dropdown-toggle" href="learn.html" data-bs-toggle="dropdown">Learn</a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Trending</a></li>
+                                                                <li><a class="dropdown-item" href="#">Frequently asked questions</a></li>
+                                                            </ul>
+                                                        </li> -->
                             </ul>
                             <span class="navbar-text ml-auto">
                                 <!--<a role="button" data-toggle="modal" data-target="#loginModal">-->
@@ -73,21 +72,22 @@
                             </span>
                         </div> <!-- navbar-collapse.// -->
                     </div> <!-- container-fluid.// -->
-                </nav>
-
-                <!-- page content -->
-                <div>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active">About Us</li>
-                                </ol>
+                    <div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active">About Us</li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </nav>
+
+                <!-- page content -->
+                
                 <div class="container-fluid">
                     <div class="row row-content align-items-center">
                         <div class="col">
@@ -115,9 +115,7 @@
                                     mid-atlantic region.</p>
                                 <blockquote class="blockquote">
                                     <p>...sit back, relax and let's take care of you.</p>
-                                    <footer class="blockquote-footer">John Doe in <cite
-                                            title="Source Title">Health Magazine 2020</cite>
-                                    </footer>
+                                    <p class="blockquote-footer">John Doe in<cite title="Source Title">Health Magazine 2020</cite></p>
                                 </blockquote>
                             </div>
                         </div>
@@ -265,12 +263,8 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
-        </div>
         </div>
         <!-- login modal -->
         <div id="memberLoginmodal" class="modal fade" role="dialog">
@@ -346,13 +340,12 @@
                 </div>
                 <div class="col-6 col-sm-4 ">
                     <h5 class="text-dark">Find a Studio Near You</h5>
-                    <button type="button" class="btn btn-light btn-outline-dark btn-sm"
-                        onclick="location.href='maplocator.html'">VIEW LARGER MAP</button>
+                    <button type="button" class="btn btn-light btn-outline-dark btn-sm" onclick="location.href=''">VIEW LARGER
+                        MAP</button>
                 </div>
                 <div class="col col-sm-2">
                     <h5 class="text-dark">Membership</h5>
-                    <button type="button" class="btn btn-light btn-outline-dark btn-sm"
-                        onclick="location.href='learnmore.html'">LEARN MORE</button>
+                    <button type="button" class="btn btn-light btn-outline-dark btn-sm" onclick="location.href=''">LEARN MORE</button>
                 </div>
                 <div class="col col-sm-2 text-center offset-1">
                     <h5 class="text-dark">Follow Us</h5>
